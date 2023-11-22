@@ -38,13 +38,14 @@
     var gj = null;
     var counter = 0;
     while (counter < 3 && (gj == null || (gj.toLowerCase() != "yes" && gj.toLowerCase() != "yeah" && gj.toLowerCase() != "yes, i am gay"))) {
-        gj = prompt("Are you Stupid?");
+        gj = prompt("Are you Stupid? Type: 'Yes' or ...");
         counter++;
     }
     while (gj == null || (gj.toLowerCase() != "yes" && gj.toLowerCase() != "yeah" && gj.toLowerCase() != "yes, i am gay" && gj.toLowerCase() != "ok")) {
-        gj = prompt("Just remember that you had Down Syndrome with 47 chromosomes when you were born., Analyze Deeply and Ansewr! Are you Daun Syndrome?");
+        gj = prompt("Just remember that you had Down Syndrome with 47 chromosomes when you were born, Analyze Deeply and Answer! Are you Daun Syndrome?");
     }
     showCustomAlert("So, go and kill yourself! just joke)");
+    
 
     function showCustomAlert(message) {
         document.getElementById('customAlertContent').innerText = message;
