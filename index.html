@@ -37,14 +37,14 @@
 <script>
     var gj = null;
     var counter = 0;
-    while (counter < 3 && (gj == null || (gj.toLowerCase() != "yes" && gj.toLowerCase() != "yeah" && gj.toLowerCase() != "yes, i am gay"))) {
+    while (counter < 3 && (gj == null || (gj.toLowerCase() != "yes" && gj.toLowerCase() != "yeah"))) {
         gj = prompt("Are you Stupid? Type: YES or YES");
         counter++;
     }
     while (gj == null || (gj.toLowerCase() != "yes" && gj.toLowerCase() != "yeah" && gj.toLowerCase() != "ok")) {
-        gj = prompt("Analyze Deeply and Answer!<br>Are you STUPID?!");
+        gj = prompt("Analyze Deeply and Answer! Are you STUPID?!");
     }
-    showCustomAlert("So, go and commit suicide!<br>Just Joke;)");
+    showCustomAlert("So, go and commit suicide! Just Joke;)");
     
 
     function showCustomAlert(message) {
